@@ -1,0 +1,39 @@
+ul {
+	list-style: none;
+	width: 1080px;
+	margin-left: -140px;
+	position: relative;
+}
+li {
+	float: left;
+	line-height: 170px;
+}
+#coverLine {
+	width: 820px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+.picture {
+	height: 60px;
+	width: 80px;
+	display: inline-block;
+	margin: 10px;
+	vertical-align: middle;
+}
+#buttons{
+	position: absolute;
+}
+.bt {
+	height: 23px;
+	width: 23px;
+	display: inline-block;
+	cursor: pointer;
+}
+#leftBt {
+	background: url(../img/leftButton.gif) no-repeat;
+}
+#rightBt {
+	background: url(../img/rightButton.gif) no-repeat;
+}
